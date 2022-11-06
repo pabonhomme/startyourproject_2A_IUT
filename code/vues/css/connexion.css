@@ -1,0 +1,21 @@
+
+.contenu {
+	min-height: 100%;
+}
+
+#img-background {
+    background-color: darkgrey;
+}
+
+#size-container{
+	width: 500px;
+}
+
+.form-control {
+	width: 350px;
+}
+
+#creer {
+	font-size: small;
+}
+

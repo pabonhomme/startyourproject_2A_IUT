@@ -1,0 +1,104 @@
+
+.contenu {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+	/*background-image: url("../media/ecran.png");*/
+	background-color: darkgrey;
+	font-family: "DejaVu Serif"!important;
+}
+
+
+.carousel-item {
+	height: 32rem;
+}
+.carousel-item > img {
+	height: 32rem;
+
+}
+
+#carouselExampleIndicators{
+	width: 100%;
+}
+
+
+#CommencerButton {
+	padding: 10px;
+	width: 10%;
+	background: #303030;
+	color: white;
+	margin-left: 15px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 12px 0 12px 0;
+	border:none;
+	margin-top: 20px;
+	font-family: "Montserrat", sans-serif;
+
+}
+
+#CommencerButton:hover{
+	color: #ffd100!important;
+	background: #303030;
+
+}
+
+#titrePrincipal {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)!important;
+	border-radius: 5px;
+	background-color: darkgrey;
+}
+
+figcaption {
+	text-align: center;
+}
+
+
+
+
+.MarginTop{
+	margin-top: 100px;
+}
+
+.TextAccroche{
+	display: flex;
+	align-items: center;
+}
+
+#TextVideo {
+	color: white;
+	padding-top: 10px;
+
+}
+
+/*Forcer le padding right de base sur les colonnes des rows de bootstrap à 0 (pour notre texte à coté de la vidéo)*/
+.no-padding > [class*='col-'] {
+	padding-right:0;
+}
+
+#paragrapheVideo{
+	padding-top: 35px;
+	font-size: 13Pt;
+	line-height: 1.5;
+	overflow-wrap: anywhere;
+}
+
+.footer {
+	position: absolute;
+	float: bottom;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*Permet de régler le problème que la width de la row déborde du body de la page*/
+.row {
+	margin-right: 0!important;
+}
+
+#img-logo {
+	max-height: 300px;
+}

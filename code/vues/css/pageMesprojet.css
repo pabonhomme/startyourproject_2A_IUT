@@ -1,0 +1,43 @@
+
+/*Taille des boutons projets de la page projet*/
+#sizeProjet {
+    padding: 20px;
+    width: 110%;
+    min-width: 100px;
+    min-height: 250px;
+    height: 20%;
+    /*taille border*/
+    border-width: 2px !important;
+}
+
+
+#sizeProjet:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#sizeProjet:active {
+    transform: scale(0.9);
+}
+/*Taille combobox de tri des projets*/
+#selectTri {
+    width: 100px;
+}
+
+
+#sizeProjet:active {
+    transform: scale(0.9);
+}
+
+/*Taille combobox de tri des projets*/
+#selectTri {
+    width: 100px;
+}
+
+
+
+
+
+
+
+>>>>>>> remotes/origin/messagerie

@@ -1,0 +1,161 @@
+/*CSS de la page projet*/
+
+body{
+
+  overflow-x: hidden;
+}
+
+
+#tableMembres {
+  width: 350px; margin-top: 50px;
+}
+
+#iconMembre {
+  margin: 10px;
+}
+
+#calendar {
+  width: 100%;
+  height: 75px;
+}
+
+.cinq {
+  width: 100%;
+}
+
+.quatre {
+  width: 80%;
+}
+.trois {
+  width: 60%;
+}
+
+.deux {
+  width: 40%;
+}
+
+.un {
+  width: 20%;
+}
+
+.Lundi {
+  height: 50px;
+}
+.Mardi {
+  margin-left: 20%;
+  height: 50px;
+}
+.Mercredi {
+  margin-left: 40%;
+  height: 50px;
+}
+.Jeudi {
+  margin-left: 60%;
+  height: 50px;
+}
+.Vendredi {
+  margin-left: 80%;
+  height: 50px;
+}
+
+.tache{
+  transition: 0.5s;
+  height: 50px;
+}
+
+.tache:hover {
+    transform: scale(1.05);
+}
+
+.detailTache {
+  display: none;
+}
+
+.infos:hover .detailTache {
+  position: relative;
+  display: block;
+  z-index: 1;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.sidebar-sticky {
+  position: relative;
+  height: calc(100vh - 48px);
+  width: 250px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  text-decoration: none;
+  transition: 0.5s;
+  font-family: "Montserrat", sans-serif;
+}
+
+#logo {
+  width: 75px;
+}
+
+.bouton{
+  color: white!important;
+  border: 1px solid;
+  border-color: #303030 ;
+  border-radius: 9px;
+}
+
+
+.boutonOrange:hover {
+  color: orange!important;
+  border: 0.5px solid;
+  border-radius: 10px;
+  background: #303030!important;
+}
+
+
+#boutonTerminee:hover {
+  color: #5cb85c!important;
+  border: 0.5px solid;
+  border-radius: 10px;
+  background: #303030;
+}
+
+#boutonSupprimer:hover{
+  color: #d9534f!important;
+  border: 0.5px solid;
+  border-radius: 10px;
+  background: #303030;
+}
+
+.sidebarMenuLien{
+  background: #ffbd00;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+#fond {
+  background: #303030;
+}
+
+#btn-changeWeek {
+  width: 3%;
+  height: 10%;
+}
+
+
+.taille-img {
+  width: 80%;
+}
+
+#reverse {
+  transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+

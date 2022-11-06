@@ -1,0 +1,49 @@
+/*DANS LE HEADER*-------------------------------------------------------------------------*/
+header {
+  display: flex!important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background: #303030;
+  background-size: 650px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+
+}
+
+header img {
+  height: 125px;
+  width: auto;
+}
+
+header a {
+  color: white!important;
+}
+
+header a:hover{
+  color: #ffd100!important;
+  text-decoration: none!important;
+
+}
+
+.boutonnav {
+  background: none!important;
+  border-color : orange!important;
+}
+
+
+.nav_lien{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav_lien li{
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+/*-----------------------------------------------------------------------*/
+
